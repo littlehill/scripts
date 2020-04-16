@@ -10,10 +10,10 @@ cd /opt/
 
 #system generics
 apt update
-apt install wget curl gnupg fish tmux python3 python3-pip transmission-cli
+apt install wget curl gnupg fish tmux python3 python3-pip transmission-cli p7zip-full pv parallel iotop
 
 #hackme tools
-apt install nmap dirb nikto hashcat
+apt install nmap dirb nikto hashcat sqlmap
 
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
 git clone https://github.com/fuzzdb-project/fuzzdb.git
